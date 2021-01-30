@@ -1,0 +1,61 @@
+h1{
+    color:red;
+    margin: 40px;
+}
+
+.menu{
+    margin-right:40px;
+    
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.item p{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: red;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h2,p{
+    text-align: center;
+}
+
+body{
+    background-color: khaki;
+}
+
